@@ -1,3 +1,8 @@
+#Requirements
+GetPot
+json
+muparser
+
 # Aim
 The repo contains a program that wants to find an approximation of the point of minimum for a function that has a 2-dim input and scalar image.
 The algos implemented to purse this are: gradient descent with Armijo rule(0), with exponential decay(1), with inverse decay(2), heavy ball(3) and Nesterov(4).
