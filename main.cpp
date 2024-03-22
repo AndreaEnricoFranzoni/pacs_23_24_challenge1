@@ -3,7 +3,7 @@
 #include <iostream>
 #include <functional>
 #include "GetPot"
-#include "readParameters.hpp"
+#include "ReadParameters.hpp"
 #include "Challenge1.hpp"
 #include "muparser_fun_2D.hpp"
 #include "types_def.hpp"
