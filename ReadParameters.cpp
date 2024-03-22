@@ -1,6 +1,7 @@
 #include "ReadParameters.hpp"
 #include "GetPot"
 #include "json.hpp"
+#include "nlohmann/json.hpp"
 #include <fstream>
 
 //challenge1
