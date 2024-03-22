@@ -1,0 +1,30 @@
+# analytical expression of the function
+f=x1*x2+4*x1*x1*x1*x1+x2*x2+3*x1
+# analytical expression of the partial derivative wrt x1
+df_x1=x2+16*x1*x1*x1+3
+# analytical expression of the partial derivative wrt x2
+df_x2=x1+2*x2
+# initial value of first component
+x1_0=0.
+# initial value of second component
+x2_0=0.
+# initial value of learning rate
+alpha_0=0.001
+# tolerance on residulas
+eps_r=1.0e-6
+# tolerance on the step
+eps_s=1.0e-6
+# decay
+mu=0.2
+# Armijo's rule parameter
+sigma=0.4
+# memory parameter for momentum update
+eta=0.9
+# max number of iterations
+itermax=1000000
+# updating rule for learning rule
+rule=0
+# if the exact gradiemt is used
+exact_grad=true
+#spacing of finite difference method for evaluating the gradient
+h=0.001

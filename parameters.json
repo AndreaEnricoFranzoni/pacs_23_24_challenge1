@@ -1,0 +1,17 @@
+{   "f":"x1*x2+4*x1*x1*x1*x1+x2*x2+3*x1",
+    "df_x1":"x2+16*x1*x1*x1+3",
+    "df_x2":"x1+2*x2",
+    "x1_0":0.0,
+    "x2_0":0.0,
+    "alpha_0":0.001,
+    "eps_r":1.0E-6,
+    "eps_s":1.0E-6,
+    "mu":0.2,
+    "sigma":0.3,
+    "eta":0.9,
+    "itermax":1000000,
+    "rule":0,
+    "exact_grad":true,
+    "h":0.001,
+    "docstring":"Parameters Challenge1 PACS 23-24"
+}
