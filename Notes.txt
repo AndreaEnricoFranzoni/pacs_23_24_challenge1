@@ -1,0 +1,17 @@
+README is clear and complete. I would expect you to tell me what choice of the parameters is not good, since you have noticed it.
+
+Code organization:
+    You should give more explicative names to files, for instance the types_def only implements one struct and could be named adter it, as you did with parameters.
+    I would expect all the header files to be collected into an include foalder.
+
+Why did you implement the function ex_grad_chosen, returning its input?
+
+You didn't need that complex structure for the function numDeriv, because you only need the first derivatives for the gradient:
+    - no need for higher derivatives
+    - no need for template
+    - no need for inline
+
+You also don't need the template T in the other functions: it is double.
+
+Where did you use the function algo_used?
+
